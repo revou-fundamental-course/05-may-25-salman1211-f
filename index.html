@@ -3,30 +3,132 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Muhammad Salman Travel Agent</title>
+    <title>Travel Agent</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="main header">
-      <div class="logo"></div>
+    <header>
       <nav>
-        <a href="#home">Home</a>
-        <a href="#Our-Package">Our Package</a>
-        <a href="#call-us">Call Us</a>
+        <h1 class="logo"></h1>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#ourpackage">Our Package</a></li>
+          <li><a href="#callus">Call Us</a></li>
+        </ul>
       </nav>
+      <section id="home" class="hero">
+        <h2 style="color: black">Your Trusted Travel Agent's</h2>
+        <p style="color: black">Your happiness is our happiness</p>
+      </section>
     </header>
-    <hr />
+
     <main>
-      <section id="home">
-        <header id="kepala">
-          <h2>Your Trusted Travel Agent's</h2>
-        </header>
-        <h4>Your Happiness Is Our Happiness</h4>
+      <section class="contact-section">
+        <section class="contact-section">
+    <div class="contact-image">
+      <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Pemandangan_Gunung_Bromo.jpg/1200px-Pemandangan_Gunung_Bromo.jpg"
+      alt="Contact Banner"/>
+    </div>
+        <aside>
+          <form class="contact-form">
+            <h2>Contact Us</h2>
+            <p>
+              Sales akan menghubungi anda 1x24 jam setelah data kami terima.
+            </p>
+            <label for="name">Your Name:</label>
+            <input
+              id="name"
+              type="text"
+              placeholder="First and last name"
+              required
+            />
+
+            <label for="email">Email Address:</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="example@email.com"
+              required
+            />
+
+            <label for="interest">What are you interested in?</label>
+            <select id="interest" required>
+              <option value="" disabled selected>Select option</option>
+              <option value="flight">Tiket Pesawat</option>
+              <option value="hotel">Hotel</option>
+            </select>
+
+            <button type="submit">SEND</button>
+          </form>
+        </aside>
       </section>
 
-      <aside class="samping">
-        <form>nama</form>
-      </aside>
+      <section class="testimonial-section">
+        <blockquote>
+          "Liburan jadi menyenangkan bersama Travel Agentku."
+        </blockquote>
+        <figcaption>
+          <strong>Florence Hughes</strong><br />
+          <em>Ibu Rumah Tangga, 28</em>
+        </figcaption>
+
+        <section class="features">
+          <h3>Use this space to provide users with more information...</h3>
+          <ol>
+            <li>
+              Your first feature, written in the form of a benefit statement.
+            </li>
+            <li>
+              Your second feature, written in the form of a benefit statement.
+            </li>
+            <li>
+              Your third feature, written in the form of a benefit statement.
+            </li>
+          </ol>
+        </section>
+      </section>
+
+      <section id="ourpackage" class="package-section">
+        <h2 id="tulisan">Our Package</h2>
+        <section class="packages">
+          <article class="package">
+            <h3>Bali</h3>
+            <p>
+              Travel dan wisata di Bali. Kunjungi cagar budaya dan kuliner yang
+              menarik.
+            </p>
+          </article>
+          <article class="package">
+            <h3>Jepang</h3>
+            <p>
+              Travel dan wisata di Jepang. Kunjungi cagar budaya dan kuliner
+              yang menarik.
+            </p>
+          </article>
+          <article class="package">
+            <h3>Singapore</h3>
+            <p>This description supports and extends the bullet point above.</p>
+          </article>
+          <article class="package">
+            <h3>Bandung</h3>
+            <p>This description supports and extends the bullet point above.</p>
+          </article>
+          <article class="package">
+            <h3>Surabaya</h3>
+            <p>This description supports and extends the bullet point above.</p>
+          </article>
+        </section>
+      </section>
+
+      <section id="callus" class="closing-section">
+        <h2>Call Us For More Information</h2>
+        <button>CALL TO ACTION</button>
+      </section>
     </main>
+
+    <footer>
+      <p>Terms of Service | Privacy Policy<br />&copy; 2019</p>
+    </footer>
   </body>
 </html>
