@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Agent</title>
+    <title>Salman Travel Agent</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -24,36 +24,37 @@
 
     <main>
       <section class="contact-section">
-        <section class="contact-section">
-    <div class="contact-image">
-      <img
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Pemandangan_Gunung_Bromo.jpg/1200px-Pemandangan_Gunung_Bromo.jpg"
-      alt="Contact Banner"/>
-     
+        <div class="contact-image">
+          <img
+            class="active"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Pemandangan_Gunung_Bromo.jpg/1200px-Pemandangan_Gunung_Bromo.jpg"
+            alt="Contact Banner"
+          />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReBMH5rjNWCF-_B8VpUrHXQtNIHSCdFtLNZA&s"
+            alt="Contact Banner"
+          />
+          <img
+            src="https://image.popbela.com/content-images/post/20230119/1-80d4e6b8a83fbbb19fce574108979e5b.png?width=1600&format=webp&w=1600"
+            alt="Contact Banner"
+          />
+        </div>
+
         <aside>
           <form class="contact-form">
             <h2>Contact Us</h2>
             <p>
               Sales akan menghubungi anda 1x24 jam setelah data kami terima.
             </p>
+
             <label for="name">Your Name:</label>
-            <input
-              id="name"
-              type="text"
-              placeholder="First and last name"
-              required
-            />
+            <input id="name" type="text" placeholder="First and last name" />
 
             <label for="email">Email Address:</label>
-            <input
-              id="email"
-              type="email"
-              placeholder="example@email.com"
-              required
-            />
+            <input id="email" type="email" placeholder="example@email.com" />
 
             <label for="interest">What are you interested in?</label>
-            <select id="interest" required>
+            <select id="interest">
               <option value="" disabled selected>Select option</option>
               <option value="flight">Tiket Pesawat</option>
               <option value="hotel">Hotel</option>
@@ -62,7 +63,6 @@
             <button type="submit">SEND</button>
           </form>
         </aside>
-        </div>
       </section>
 
       <section class="testimonial-section">
@@ -75,17 +75,11 @@
         </figcaption>
 
         <section class="features">
-          <h3>Use this space to provide users with more information...</h3>
+          <h3>Keunggulan kami</h3>
           <ol>
-            <li>
-              Your first feature, written in the form of a benefit statement.
-            </li>
-            <li>
-              Your second feature, written in the form of a benefit statement.
-            </li>
-            <li>
-              Your third feature, written in the form of a benefit statement.
-            </li>
+            <li>Lebih mudah pemesanan dan cepat</li>
+            <li>Lebih banyak pilihan hotel dan tiket pesawat</li>
+            <li>Lebih banyak pilihan tempat wisata</li>
           </ol>
         </section>
       </section>
@@ -109,15 +103,18 @@
           </article>
           <article class="package">
             <h3>Singapore</h3>
-            <p>This description supports and extends the bullet point above.</p>
+            <p>Nikmati keindahan berbagai tempat menakjubkan di Singapura</p>
           </article>
           <article class="package">
-            <h3>Bandung</h3>
-            <p>This description supports and extends the bullet point above.</p>
+            <h3>Thailand</h3>
+            <p>Jelajahi keindahan Thailand</p>
           </article>
           <article class="package">
-            <h3>Surabaya</h3>
-            <p>This description supports and extends the bullet point above.</p>
+            <h3>Nepal</h3>
+            <p>
+              Telusuri keindahan kota nepal dan jelajahi pegunungan dengan
+              pemandangan yang indah
+            </p>
           </article>
         </section>
       </section>
@@ -131,5 +128,6 @@
     <footer>
       <p>Terms of Service | Privacy Policy<br />&copy; 2019</p>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
